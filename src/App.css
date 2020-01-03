@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  max-width: 100%
+}
+.col {
+    display:flex;
+    background-color: #f1ee2d;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: center;
+    height: 100%;
+}
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  height: 100%;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+.row {
+
+  width: 100%
+
+
+}
